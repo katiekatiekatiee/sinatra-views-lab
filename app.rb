@@ -10,7 +10,7 @@ class App < Sinatra::Base
 	end
 
 	get '/goodbye' do
-		# @name = "Joe"
+		@name = "Joe"
 		erb :goodbye
 	end
 
